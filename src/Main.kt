@@ -1,16 +1,17 @@
 import javafx.application.Platform
 import javafx.embed.swing.JFXPanel
+import javafx.event.EventHandler
 import javafx.scene.Group
 import javafx.scene.Scene
 import javafx.stage.Stage
 import javafx.stage.StageStyle
 import javafx.scene.input.KeyCode
-
+import javafx.scene.input.MouseEvent
 
 
 fun main() {
     JFXPanel()
-    Platform.runLater { launch() }
+    Platform.runLater { tests.launch() }
 }
 
 fun launch () {
@@ -30,6 +31,10 @@ fun launch () {
             System.exit(0)
         }
     }
+
+
+
+    //onmousedragged
 
 
 }
